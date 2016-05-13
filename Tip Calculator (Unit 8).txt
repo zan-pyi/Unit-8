@@ -1,0 +1,31 @@
+5.
+<html>
+<head>
+<title>Tip Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tip Calculator</h1>
+    </header>
+    <form>
+        Cost: $<input id="bill" type=“number”>
+        <br>
+	Tip Rate: $<input id=“tip” type=“number”>
+        <a onclick="calc()">Calculate</a>
+        <br>
+    </form>
+</div>
+
+<script src = “calculator.js”>
+    function calc() {
+        var bill = document.getElementById('bill').value;
+        var tip = bill * .15;
+        var btotal = bill + tip;
+
+        document.getElementById("tip").innerHTML= "$"+Number(tip);
+        document.getElementById("total").innerHTML= "$"+Number(btotal);
+    }
+</script>
+</body>
+

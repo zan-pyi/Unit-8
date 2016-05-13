@@ -1,0 +1,4 @@
+3.
+(a) No, after I modify the temperature converter code I noticed that anything else doesn’t need to change. Only HTML tags in that two lines will change. Other than that, nothing need to be changed. 
+
+(b) The difference between the two button-creating elements are that the buttons that are created with the button element function just like buttons created with the input element but they offer richer rendering possibilities like the button element may have content. For example, a button element that contains an image functions may resemble an input element whose type is set to “image”, but the button element type allows content. So basically, if you want to use button from input element if you want to create button in a form. And use button tag if you want to create button for an action. However, they are both almost the same since when you run both of them, it shows the same results. 
